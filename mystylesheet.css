@@ -1,0 +1,38 @@
+.navbar{
+    background-color: #343434;
+}
+
+.nav-link{
+    color:darkgray;
+}
+.nav-item{
+    border-top:2px solid orangered;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 140px;
+    text-align: center;
+}
+
+.nav-item:hover{
+    margin-top: -4px;
+    border-top:6px solid orangered;
+}
+
+.nav-item.current{
+    margin-top: -4px;
+    border-top:6px solid orangered;
+}
+
+.separator{
+    border-left:2px solid darkgray;
+    border-right:2px solid darkgray;
+}
+
+#orange {
+    color: orangered;
+    font-weight: bold;
+}
+
+#presentation_text {
+    font-size: 0.9em;
+}
