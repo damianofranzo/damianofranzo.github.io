@@ -36,3 +36,8 @@
 #presentation_text {
     font-size: 0.9em;
 }
+
+#warning {
+    color: red;
+    font-size: 1.2em;
+}
