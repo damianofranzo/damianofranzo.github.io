@@ -12,13 +12,12 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
 
-    <title>Website</title>
+    <title>Damiano Franzò</title>
 </head>
-<body style="font-family:'PT Serif'; background-color: lightgray">
+<body style="font-family:'PT Serif'; background-color: lightgray; position: relative">
 <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js" ></script>
 
-
-<nav class="navbar navbar-expand-lg py-lg-2" style="margin: 0px 0px; border-bottom:5px solid orangered">
+<nav class="navbar navbar-expand-lg py-lg-2" style="margin: 0px 0px; border-bottom:5px solid orangered;">
     <div class="navbar-brand" href="#" style="color:orangered">
         <h1 style="font-size: 3em">
             Damiano <span style="color:darkgray">Franzò</span> <br/>
@@ -46,8 +45,106 @@
         </ul>
     </div>
 </nav>
-<div class="container-fluid" style="background-color: lightgray">
-<h1 id="warning">Website under construction!</h1>
+
+<div class="container-fluid" style="background-color: lightgray ;max-width: 75%; margin-top: 15px">
+    <div class="jumbotron" style="padding-top: 30px; padding-bottom: 30px; ">
+        <div class="row" id="orange">
+            <div class="col-md-12">
+                <h1 class="display-6">Projects</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                Here are described all the most important projects where i was involved. Unfortunaly not all of them are
+                open-source, so it's not possible to have a look at the code for everyone. Nevertheless i explain for all of them
+                what is/was my role in summary within the development.
+            </div>
+        </div>
+    </div>
 </div>
+<div class="container-fluid" style="background-color: lightgray ;max-width: 75%; margin-top: 15px">
+    <div class="row" id="orange">
+        <div class="col-md-12">
+            <h1 class="display-6">Current projects</h1>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-2">
+            <h5 style="font-weight: bold">
+                Politecnico di Torino
+            </h5>
+        </div>
+        <div class="col-md-8">
+        <p>
+                The name of our project is ETS, standing for ESP tracking system. The project is under development for the
+                course "Programmazione di sistema". The scope of the project is the triangulation and analysis of mobile devices
+                in buildings. The RSSI for each packed are measured through ESP32 Devices, placed around the rooms.
+                Data are sent to a server that elaborate analysis results and store them in a MySQL database.
+                The results can be visualized through a GUI application. The project will be presented in upcoming month
+                and source code will be public for that date.
+            </p>
+        </div>
+        <div class="col-md-2">
+            <p>
+                <img src="images/logo_ETS.png" class="img-fluid" alt="Responsive image">
+            </p>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-2">
+            <h5 style="font-weight: bold">
+                EURECOM
+            </h5>
+        </div>
+        <div class="col-md-10">
+            I'm working on a university project related to asynchronous machine learning. The scope is to analyze how
+            the staleness of models influence the convergence. I'm working with two other students, and now we are exploring
+            the state of the art of the subject.
+        </div>
+    </div>
+
+
+    <div class="row" id="orange">
+        <div class="col-md-12">
+            <h1 class="display-6">Past Projects</h1>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-2">
+            <h5 style="font-weight: bold">
+                Politecnico di Torino
+            </h5>
+        </div>
+        <div class="col-md-10">
+            <p>
+                I did some contributions to a computational electromagnetics framework. I implemented WIRE EFIE formulation
+                and some other features within the framework. The job required knowledge about physics, linear algebra,
+                maths and algorithms.
+            </p>
+        </div>
+    </div>
+    <hr>
+        <div class="row">
+            <div class="col-md-2">
+                <h5 style="font-weight: bold">
+                    Politecnico di Torino
+                </h5>
+            </div>
+            <div class="col-md-10">
+                <p>
+                    This project was finalized to academic purposes. It is concerned to a specific exam about computer architectures,
+                    where we got the opportunity to work with Raspberry pi 3. The goal of our project is to determine the delay introduced
+                    by the Operative System of the Raspberry pi 3 exploiting different methods and libraries. The work of test has been
+                    performed in the laboratory using some electronic instruments such as the oscilloscope and the waveform generator.
+                    The source code is available on my github profile.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
 </body>
 </html>
