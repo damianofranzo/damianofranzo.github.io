@@ -47,7 +47,7 @@ rss_icon: false
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+search_enabled: false
 socials_in_search: true
 bib_search: true
 
@@ -84,18 +84,18 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
-lsi: false # produce an index for related posts
-
-# Pagination
-pagination:
-  enabled: true
-
-related_blog_posts:
-  enabled: true
-  max_related: 5
+# blog_name:
+# blog_description: a simple whitespace theme for academics
+# permalink: /blog/:year/:title/
+# lsi: false # produce an index for related posts
+# 
+# # Pagination
+# pagination:
+#   enabled: true
+# 
+# related_blog_posts:
+#   enabled: true
+#   max_related: 5
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
@@ -191,6 +191,9 @@ exclude:
   - vendor
   - _pages/teaching.md
   - _pages/profiles.md
+  - _pages/repositories.md
+  - _pages/projects.md
+  - _pages/dropdown.md
 keep_files:
   - CNAME
   - .nojekyll
@@ -245,27 +248,27 @@ terser:
 # Jekyll Archives
 # -----------------------------------------------------------------------------
 
-jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-  layouts:
-    year: archive-year
-    tag: archive-tag
-    category: archive-category
-  permalinks:
-    year: "/blog/:year/"
-    tag: "/blog/tag/:name/"
-    category: "/blog/category/:name/"
-
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+# jekyll-archives:
+#   enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+#   layouts:
+#     year: archive-year
+#     tag: archive-tag
+#     category: archive-category
+#   permalinks:
+#     year: "/blog/:year/"
+#     tag: "/blog/tag/:name/"
+#     category: "/blog/category/:name/"
+# 
+# display_tags: [] # these tags will be displayed on the front page of your blog
+# display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Franzò]
+  first_name: [Damiano]
 
   style: apa
   locale: en
