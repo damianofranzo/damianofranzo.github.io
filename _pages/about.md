@@ -37,8 +37,8 @@ Prior to my doctoral studies, I graduated (cum laude) with a Master of Science (
 A list of my publications can be found in the [publication section](https://damianofranzo.github.io/publications/)
 
 Since the beginning of my research activity, I have developed more than 5 fast [electromagnetic solvers](https://en.wikipedia.org/wiki/Electromagnetic_field_solver) (either in **MATLAB** or **C++**), for use in my published articles and ongoing research.
-I am the main author of [open321](https://cerl-polito.github.io/Open321_pages/), a **C++** open-source library for matrix preconditioning for electromagnetics simulations. 
-I also have contributed to [Eigen](https://eigen.tuxfamily.org), a widely used **C++** linear-algebra open-source library, through several pull requests (PRs), by implementing some SIMD operations for complex-valued functions. 
+I have contributed to [Eigen](https://eigen.tuxfamily.org), a widely used **C++** linear-algebra open-source library. My contributions, made through several merge requests (MRs), include implementing complex-value SIMD operations, enabling/fixing bindings to third-party libraries, and addressing other similar issues.
+I am also the main author of [open321](https://cerl-polito.github.io/Open321_pages/), a **C++** open-source library for matrix preconditioning for electromagnetics simulations. 
 
-Please do not hesitate to contact me by [email](mailto:damiano.franzo@polito.it) with any inquiries or collaboration proposals. 
+Please do not hesitate to contact me by [email](mailto:franzo.damiano@gmail.com) with any inquiries or collaboration proposals. 
 You can find in the [resume section](https://damianofranzo.github.io/cv/) a detailed breakdown of my experiences and background.
